@@ -1,0 +1,47 @@
+.container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.triangle {
+    background-color: black;
+    width: 18px;
+    height: 18px;
+    rotate: 45deg;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+.first-comment {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.first-card {
+    max-width: 40%;
+}
+
+.round-image {
+    margin: 10px;
+    width: 15%;
+    border-radius: 50%;
+}
+
+.img-plus-name {
+    display: flex;
+    flex-flow: row;
+}
+
+.name-role {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
