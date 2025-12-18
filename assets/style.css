@@ -177,3 +177,12 @@
     width: 69px;
     height: 82px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
